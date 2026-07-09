@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ /* common button style */
+.common-btn{
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.7rem 1.7rem;
+  background-color: #1D4ED8;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.4s;
+}
+
+.common-btn:hover{
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* styling navbar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+nav .logo img{
+  width: 100%;
+  transition: 0.5s;
+}
+nav .logo img:hover{
+  transform: scale(1.1);
+}
+nav ul{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+
+
