@@ -14,6 +14,7 @@
   border: none;
   border-radius: 0.5rem;
   transition: 0.4s;
+  cursor: pointer;
 }
 .common-btn:hover {
   transform: scale(1.06);
@@ -179,6 +180,7 @@ nav ul li a {
   background-color: #FFFFFF;
   border: 2px solid #2563EB;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .pricing .pricing-card-container .pro-card{
   background-color: #0D1B2A;
@@ -198,4 +200,40 @@ nav ul li a {
 .pricing .pricing-card-container .team-card button{
   color: #0D1B2A;
   border: 2px solid #0D1B2A;
+}
+
+/* styling footer */
+footer{
+  padding: 1rem 4rem;
+  text-align: center;
+  color: #E5E7EB;
+  background-color: #0D1B2A;
+}
+footer .foot-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+footer .foot-container .foot-logo{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+footer .foot-container .foot-links{
+  display: flex;
+  gap: 1rem;
+}
+footer .foot-container .foot-links a i{
+  font-size: 1.25rem;
+  transition: 0.4s;
+}
+footer .foot-container .foot-links a i:hover{
+  transform: scale(1.5);
+}
+footer .copyright-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
 }
